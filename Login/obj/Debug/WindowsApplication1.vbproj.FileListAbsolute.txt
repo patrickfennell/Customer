@@ -1,0 +1,10 @@
+C:\Customer_Project\db\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Customer_Project\db\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Customer_Project\db\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Customer_Project\db\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Customer_Project\db\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Customer_Project\db\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Customer_Project\db\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Customer_Project\db\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Customer_Project\db\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Customer_Project\db\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
