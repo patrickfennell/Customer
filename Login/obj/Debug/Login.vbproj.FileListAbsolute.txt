@@ -28,3 +28,11 @@ C:\Project\Login\bin\Debug\WindowsApplication1.exe.config
 C:\Project\Login\obj\Debug\WindowsApplication1.exe
 C:\Project\Login\obj\Debug\WindowsApplication1.xml
 C:\Project\Login\obj\Debug\WindowsApplication1.pdb
+C:\Project\Login\bin\Debug\WindowsApplication1.exe
+C:\Project\Login\bin\Debug\WindowsApplication1.pdb
+C:\Project\Login\bin\Debug\WindowsApplication1.xml
+C:\Project\Login\obj\Debug\WindowsApplication1.Details.resources
+C:\Project\Login\obj\Debug\WindowsApplication1.Login_Form.resources
+C:\Project\Login\obj\Debug\WindowsApplication1.Resources.resources
+C:\Project\Login\obj\Debug\WindowsApplication1.Retrive_Data.resources
+C:\Project\Login\obj\Debug\Login.vbproj.GenerateResource.Cache

@@ -43,7 +43,7 @@ Public Class CustomerAccess
 
 
             Dim _createdBy = New SqlParameter("@CreatedBy", SqlDbType.VarChar)
-            _createdBy.Value = "admin"
+            _createdBy.Value = "Administrator"
             command.Parameters.Add(_createdBy)
 
 
