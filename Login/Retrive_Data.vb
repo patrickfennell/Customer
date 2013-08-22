@@ -46,4 +46,17 @@ Public Class Retrive_Data
 
     End Sub
 
+    Private Sub myDataGridView_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles myDataGridView.CellContentClick
+
+    End Sub
+
+    Private Sub btnClose_Click(sender As Object,
+                               e As EventArgs) Handles btnClose.Click
+        Application.Exit()
+
+    End Sub
+
+    Private Sub btnPrint_Click(sender As Object, e As EventArgs) Handles btnPrint.Click
+        PrintForm1.Print()
+    End Sub
 End Class
