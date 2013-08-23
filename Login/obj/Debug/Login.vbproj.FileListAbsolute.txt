@@ -36,3 +36,4 @@ C:\Project\Login\obj\Debug\WindowsApplication1.Login_Form.resources
 C:\Project\Login\obj\Debug\WindowsApplication1.Resources.resources
 C:\Project\Login\obj\Debug\WindowsApplication1.Retrive_Data.resources
 C:\Project\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+C:\Project\Login\obj\Debug\WindowsApplication1.Home.resources

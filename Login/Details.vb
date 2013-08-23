@@ -34,10 +34,10 @@
 
     End Sub
 
-    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
 
-        Dim _retrieve As New Retrive_Data
-        _retrieve.Show()
-       
+        Dim _home As New Home
+        _home.Show()
+        Me.Visible = False
     End Sub
 End Class

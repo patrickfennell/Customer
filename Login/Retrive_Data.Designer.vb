@@ -26,7 +26,7 @@ Partial Class Retrive_Data
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Retrive_Data))
         Me.myDataGridView = New System.Windows.Forms.DataGridView()
         Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnHome = New System.Windows.Forms.Button()
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         CType(Me.myDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -50,14 +50,14 @@ Partial Class Retrive_Data
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
-        'btnClose
+        'btnHome
         '
-        Me.btnClose.Location = New System.Drawing.Point(489, 246)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(79, 31)
-        Me.btnClose.TabIndex = 2
-        Me.btnClose.Text = "Close"
-        Me.btnClose.UseVisualStyleBackColor = True
+        Me.btnHome.Location = New System.Drawing.Point(489, 246)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(79, 31)
+        Me.btnHome.TabIndex = 2
+        Me.btnHome.Text = "Home"
+        Me.btnHome.UseVisualStyleBackColor = True
         '
         'btnPrint
         '
@@ -83,7 +83,7 @@ Partial Class Retrive_Data
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(865, 297)
         Me.Controls.Add(Me.btnPrint)
-        Me.Controls.Add(Me.btnClose)
+        Me.Controls.Add(Me.btnHome)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.myDataGridView)
         Me.Name = "Retrive_Data"
@@ -94,7 +94,7 @@ Partial Class Retrive_Data
     End Sub
     Friend WithEvents myDataGridView As System.Windows.Forms.DataGridView
     Friend WithEvents btnDelete As System.Windows.Forms.Button
-    Friend WithEvents btnClose As System.Windows.Forms.Button
+    Friend WithEvents btnHome As System.Windows.Forms.Button
     Friend WithEvents btnPrint As System.Windows.Forms.Button
     Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
 End Class

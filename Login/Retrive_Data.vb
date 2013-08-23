@@ -50,9 +50,11 @@ Public Class Retrive_Data
 
     End Sub
 
-    Private Sub btnClose_Click(sender As Object,
-                               e As EventArgs) Handles btnClose.Click
-        Application.Exit()
+    Private Sub btnHome_Click(sender As Object,
+                               e As EventArgs) Handles btnHome.Click
+        Dim _home As New Home
+        _home.Show()
+        Me.Visible = False
 
     End Sub
 

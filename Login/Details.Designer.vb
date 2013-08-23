@@ -28,7 +28,7 @@ Partial Class Details
         Me.cboGender = New System.Windows.Forms.ComboBox()
         Me.cboAge = New System.Windows.Forms.ComboBox()
         Me.btnSubmit = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.btnHome = New System.Windows.Forms.Button()
         Me.lblFirstName = New System.Windows.Forms.Label()
         Me.lblLastName = New System.Windows.Forms.Label()
         Me.lblEmail = New System.Windows.Forms.Label()
@@ -84,14 +84,14 @@ Partial Class Details
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
-        'btnDelete
+        'btnHome
         '
-        Me.btnDelete.Location = New System.Drawing.Point(54, 254)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(88, 33)
-        Me.btnDelete.TabIndex = 7
-        Me.btnDelete.Text = "Retrive"
-        Me.btnDelete.UseVisualStyleBackColor = True
+        Me.btnHome.Location = New System.Drawing.Point(54, 254)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(88, 33)
+        Me.btnHome.TabIndex = 7
+        Me.btnHome.Text = "Home"
+        Me.btnHome.UseVisualStyleBackColor = True
         '
         'lblFirstName
         '
@@ -148,7 +148,7 @@ Partial Class Details
         Me.Controls.Add(Me.lblEmail)
         Me.Controls.Add(Me.lblLastName)
         Me.Controls.Add(Me.lblFirstName)
-        Me.Controls.Add(Me.btnDelete)
+        Me.Controls.Add(Me.btnHome)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.cboAge)
         Me.Controls.Add(Me.cboGender)
@@ -167,7 +167,7 @@ Partial Class Details
     Friend WithEvents cboGender As System.Windows.Forms.ComboBox
     Friend WithEvents cboAge As System.Windows.Forms.ComboBox
     Friend WithEvents btnSubmit As System.Windows.Forms.Button
-    Friend WithEvents btnDelete As System.Windows.Forms.Button
+    Friend WithEvents btnHome As System.Windows.Forms.Button
     Friend WithEvents lblFirstName As System.Windows.Forms.Label
     Friend WithEvents lblLastName As System.Windows.Forms.Label
     Friend WithEvents lblEmail As System.Windows.Forms.Label

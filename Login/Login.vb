@@ -9,8 +9,7 @@ Partial Public Class Login_Form
     Public Login_Form()
 
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub login(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
@@ -38,12 +37,12 @@ Partial Public Class Login_Form
 
         If _Verify.Length = 1 Then
 
-            Dim _details = New Details
-            'lblError.Text = "Welcome " + txtUser.Text
+            Dim _home = New Home
             txtUser.Clear()
             txtPassword.Clear()
-            _details.Show()
-
+            _home.Show()
+            Me.Visible = False
+            
         Else
             lblError.Text = "Invalid username password combination"
             txtUser.Clear()
