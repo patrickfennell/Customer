@@ -86,7 +86,7 @@ Partial Class Details
         '
         'btnHome
         '
-        Me.btnHome.Location = New System.Drawing.Point(54, 254)
+        Me.btnHome.Location = New System.Drawing.Point(48, 254)
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(88, 33)
         Me.btnHome.TabIndex = 7
