@@ -13,8 +13,8 @@ DROP TYPE dbo.UserName
 GO
 
 */
-_--Sql_________________________________________________________________________________________________________
-USE Customer												--Do this first creates type username
+
+USE Customer												
 Go															
 
 

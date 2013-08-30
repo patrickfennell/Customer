@@ -42,8 +42,7 @@ Public Class Retrive_Data
 
         myDataGridView.Rows.RemoveAt(myDataGridView.SelectedRows(0).Index)
         myDataGridView.Update()
-        ' _databaseTable.AcceptChanges()
-
+        
     End Sub
 
     Private Sub myDataGridView_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles myDataGridView.CellContentClick

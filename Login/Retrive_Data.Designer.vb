@@ -52,9 +52,9 @@ Partial Class Retrive_Data
         '
         'btnHome
         '
-        Me.btnHome.Location = New System.Drawing.Point(489, 246)
+        Me.btnHome.Location = New System.Drawing.Point(488, 246)
         Me.btnHome.Name = "btnHome"
-        Me.btnHome.Size = New System.Drawing.Size(79, 31)
+        Me.btnHome.Size = New System.Drawing.Size(85, 31)
         Me.btnHome.TabIndex = 2
         Me.btnHome.Text = "Home"
         Me.btnHome.UseVisualStyleBackColor = True
