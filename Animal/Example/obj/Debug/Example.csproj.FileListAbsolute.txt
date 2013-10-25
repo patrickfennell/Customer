@@ -1,0 +1,6 @@
+C:\Project\Animal\Example\bin\Debug\Example.exe.config
+C:\Project\Animal\Example\bin\Debug\Example.exe
+C:\Project\Animal\Example\bin\Debug\Example.pdb
+C:\Project\Animal\Example\obj\Debug\Example.csprojResolveAssemblyReference.cache
+C:\Project\Animal\Example\obj\Debug\Example.exe
+C:\Project\Animal\Example\obj\Debug\Example.pdb

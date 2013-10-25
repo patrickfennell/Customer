@@ -1,0 +1,8 @@
+C:\Project\Customer\Project_Login\bin\Debug\Project_Login.exe.config
+C:\Project\Customer\Project_Login\bin\Debug\Project_Login.exe
+C:\Project\Customer\Project_Login\bin\Debug\Project_Login.pdb
+C:\Project\Customer\Project_Login\obj\Debug\Project_Login.csprojResolveAssemblyReference.cache
+C:\Project\Customer\Project_Login\obj\Debug\Project_Login.Properties.Resources.resources
+C:\Project\Customer\Project_Login\obj\Debug\Project_Login.csproj.GenerateResource.Cache
+C:\Project\Customer\Project_Login\obj\Debug\Project_Login.exe
+C:\Project\Customer\Project_Login\obj\Debug\Project_Login.pdb

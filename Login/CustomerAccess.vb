@@ -8,8 +8,8 @@ Public Class CustomerAccess
                            Entity As Customer)
 
 
-        Dim _sqlConnection As New SqlConnection
-        Dim _sqlCommand As New SqlCommand
+        ' Dim _sqlConnection As New SqlConnection
+        ' Dim _sqlCommand As New SqlCommand
 
         Dim _databaseConnectionString As String = "Data Source=.\SQLEXPRESS;Initial Catalog=Customer;Integrated Security=True "
 
