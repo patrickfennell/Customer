@@ -54,5 +54,12 @@ namespace WindowsFormsApplication1
             user_txt.Text = "";
             pass_txt.Text = "";
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Home_form home = new Home_form();
+            home.Show();
+            this.Hide();
+        }
     }
 }

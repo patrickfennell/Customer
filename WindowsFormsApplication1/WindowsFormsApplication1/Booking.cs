@@ -10,29 +10,47 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Home_form : Form
+    public partial class booking_form : Form
     {
-        public Home_form()
+        public booking_form()
         {
             InitializeComponent();
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            booking_form booking = new booking_form();
-            booking.Show();
+            Home_form home= new Home_form();
+            home.Show();
             this.Hide();
-           //this.Dispose();
         }
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             Login log = new Login();
             log.Show();
-            this.Hide();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Return_Click(object sender, EventArgs e)
         {
 
         }

@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.lbl_user = new System.Windows.Forms.Label();
             this.lbl_password = new System.Windows.Forms.Label();
             this.user_txt = new System.Windows.Forms.TextBox();
             this.pass_txt = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_message = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,6 +94,14 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
+            // lbl_message
+            // 
+            this.lbl_message.AutoSize = true;
+            this.lbl_message.Location = new System.Drawing.Point(83, 192);
+            this.lbl_message.Name = "lbl_message";
+            this.lbl_message.Size = new System.Drawing.Size(0, 13);
+            this.lbl_message.TabIndex = 7;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.keys;
@@ -101,14 +110,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(134, 119);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
-            // 
-            // lbl_message
-            // 
-            this.lbl_message.AutoSize = true;
-            this.lbl_message.Location = new System.Drawing.Point(83, 192);
-            this.lbl_message.Name = "lbl_message";
-            this.lbl_message.Size = new System.Drawing.Size(0, 13);
-            this.lbl_message.TabIndex = 7;
             // 
             // Login
             // 
@@ -124,6 +125,7 @@
             this.Controls.Add(this.user_txt);
             this.Controls.Add(this.lbl_password);
             this.Controls.Add(this.lbl_user);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
